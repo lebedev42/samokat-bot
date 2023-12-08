@@ -1,0 +1,68 @@
+Arguments: 
+  /Users/ilya/.nvm/versions/node/v18.12.1/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /Users/ilya/.rvm/gems/ruby-2.5.3/bin:/Users/ilya/.rvm/gems/ruby-2.5.3@global/bin:/Users/ilya/.rvm/rubies/ruby-2.5.3/bin:/Users/ilya/.nvm/versions/node/v18.12.1/bin:/Users/ilya/.cargo/bin::/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/ilya/.cargo/bin:/Users/ilya/go:/usr/local/go/bin:/Users/ilya/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ilya/Projects/samokat-bot/package.json: Unexpected token } in JSON at position 675
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "samokat-bot",
+    "private": true,
+    "version": "0.1.0",
+    "description": "A Strapi application",
+    "scripts": {
+      "develop": "strapi develop",
+      "start": "strapi start",
+      "build": "strapi build",
+      "strapi": "strapi"
+    },
+    "devDependencies": {},
+    "dependencies": {
+      "@strapi/plugin-cloud": "4.15.4",
+      "@strapi/plugin-i18n": "4.15.4",
+      "@strapi/plugin-users-permissions": "4.15.4",
+      "@strapi/strapi": "4.15.4",
+      "axios": "^1.6.2",
+      "better-sqlite3": "8.6.0",
+      "jimp": "^0.22.10",
+      "qrcode-reader": "^1.0.4",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-router-dom": "5.3.4",
+      "styled-components": "5.3.3",
+    },
+    "author": {
+      "name": "A Strapi developer"
+    },
+    "strapi": {
+      "uuid": "29bcbfbf-bd66-4fec-9fc8-b1e52ccc88a8"
+    },
+    "engines": {
+      "node": ">=18.0.0 <=20.x.x",
+      "npm": ">=6.0.0"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
